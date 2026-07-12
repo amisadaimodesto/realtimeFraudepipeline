@@ -37,7 +37,7 @@ python spark_streaming_processor.py
 source venv/bin/activate
 python producer_simulator.py
 ```
-## Conectar o Tableau
+**4. Conectar o Tableau**
 ```
 Apontar o conector PostgreSQL para localhost:5432, banco fraud_db, usuário postgres e senha password123.
 ```
