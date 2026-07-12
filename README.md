@@ -2,6 +2,15 @@
 
 Este projeto implementa um pipeline de engenharia de dados ponta a ponta para detecção e monitoramento de transações fraudulentas em tempo real. O sistema simula um fluxo contínuo de dados financeiros, processa eventos com baixa latência, persiste os alertas de forma segura em um banco relacional e os expõe em um dashboard interativo.
 
+## 🛠️ Stack Tecnológica
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Apache Spark](https://img.shields.io/badge/Apache,_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache,_Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Linux / Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
 ## 🏗️ Arquitetura do Sistema
 
 O fluxo de dados foi desenhado seguindo as melhores práticas de sistemas distribuídos e alta disponibilidade:
