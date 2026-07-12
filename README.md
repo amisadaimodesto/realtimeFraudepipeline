@@ -26,3 +26,16 @@ O fluxo de dados foi desenhado seguindo as melhores práticas de sistemas distri
 1. **Subir a Infraestrutura (Docker):**
    ```bash
    docker compose up -d
+
+## Iniciar o Motor do Spark Streaming:
+
+source venv/bin/activate
+python spark_streaming_processor.py
+Disparar o Simulador de Transações:
+
+Bash
+```
+source venv/bin/activate
+python producer_simulator.py
+```
+Conectar o Tableau: Apontar o conector PostgreSQL para localhost:5432, banco fraud_db, usuário postgres e senha password123.
